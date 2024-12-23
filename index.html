@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HD836 Processor Architecture</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #004d99;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #004d99;
+        }
+        p {
+            line-height: 1.6;
+        }
+        .key-features ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .key-features li {
+            margin: 10px 0;
+            padding-left: 20px;
+            position: relative;
+        }
+        .key-features li::before {
+            content: '✔';
+            position: absolute;
+            left: 0;
+            color: green;
+        }
+        .repo-link {
+            color: #004d99;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        footer {
+            text-align: center;
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>HD836 Processor Architecture</h1>
+</header>
+
+<div class="container">
+    <section>
+        <h2>About HD836</h2>
+        <p>The HD836 (Hyper Decode 836) is an open-source 32-bit processor architecture, designed for educational purposes and embedded systems. It is inspired by popular processor architectures like x86, ARM32, and ARM64, and provides a foundational design to understand processor functionality and hardware development.</p>
+    </section>
+
+    <section class="key-features">
+        <h2>Key Features</h2>
+        <ul>
+            <li><strong>Open-Source Design:</strong> The HD836 project is fully open-source, allowing for study, modification, and community contributions.</li>
+            <li><strong>32-Bit Architecture:</strong> Provides a 32-bit design ideal for embedded systems and educational projects.</li>
+            <li><strong>Educational Resource:</strong> Serves as an excellent tool for learning about processor architecture and digital system design.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Repository Contents</h2>
+        <p>The repository contains essential components for building and understanding the HD836 architecture, such as:</p>
+        <ul>
+            <li><strong>ALU.v</strong>: Arithmetic Logic Unit</li>
+            <li><strong>BranchPredictor.v</strong>: Implements branch prediction</li>
+            <li><strong>CacheController.v</strong>: Manages cache memory</li>
+            <li><strong>MultiCoreProcessor.v</strong>: Supports multi-core processors</li>
+            <li><strong>PipelineStages.v</strong>: Defines pipelining stages for improved throughput</li>
+            <li><strong>RegisterFile.v</strong>: Contains registers for fast data access</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Getting Started</h2>
+        <p>To explore or contribute to the HD836 project, follow these steps:</p>
+        <ol>
+            <li>Clone the repository using Git:</li>
+            <pre><code>git clone https://github.com/NovaOSholder/HD836.git</code></pre>
+            <li>Explore the Verilog files in the repository to understand the components.</li>
+            <li>Contribute by forking the repository, making changes, and submitting a pull request.</li>
+        </ol>
+    </section>
+
+    <section>
+        <h2>More Information</h2>
+        <p>For more details and to get started with the HD836 architecture, visit the <a class="repo-link" href="https://github.com/NovaOSholder/HD836" target="_blank">HD836 GitHub Repository</a>.</p>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2024 HD836 Processor Architecture | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
